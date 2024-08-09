@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="grid grid-cols-2 gap-8 mb-20 md:gap-28 md:grid-cols-4">
             <ul className="space-y-1.5">
               <li className="mb-4 font-semibold text-white uppercase">
-                Uranium
+                jeongmin's portfolio
               </li>
               <li>
                 <a href="#">About</a>

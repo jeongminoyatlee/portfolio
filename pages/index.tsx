@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-
 import Header from '../components/Header';
 import Landing from '../components/Landing';
 import Portfolio1 from '../components/Portfolio1';
@@ -19,13 +18,14 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Uranium – a ready-to-use website template</title>
+        <title>이정민 | 프론트엔드 개발자 포트폴리오</title>
         <meta content="Example" name="description" />
         <meta property="og:url" content="example.com" />
         <meta property="og:description" content="Example" />
         <meta property="og:title" content="Example" />
         <meta property="og:image" content="" />
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="shortcut icon" href="/images/logo.png" type="image/png" />
+        <link rel="icon" href="/images/logo.png" type="image/png" />
       </Head>
       <div className="h-full leading-normal text-gray-600">
         <div
@@ -42,7 +42,6 @@ const Home: NextPage = () => {
         <Portfolio3/>
         {/* <Portfolio4/> */}
         <Contact/>
-
         {/*1*/}
         {/* <Features /> */}
         {/* <Demo /> */}

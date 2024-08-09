@@ -3,6 +3,11 @@ import Head from 'next/head';
 
 import Header from '../components/Header';
 import Landing from '../components/Landing';
+import Portfolio1 from '../components/Portfolio1';
+import Portfolio2 from '../components/Portfolio2';
+import Portfolio3 from '../components/Portfolio3';
+import Portfolio4 from '../components/Portfolio4';
+import Contact from '../components/Contact';
 import Features from '../components/Features';
 import Demo from '../components/Demo';
 import Pricing from '../components/Pricing';
@@ -32,10 +37,17 @@ const Home: NextPage = () => {
         />
         <Header />
         <Landing />
-        <Features />
-        <Demo />
-        <Pricing />
-        <Testimonies />
+        <Portfolio1/>
+        {/* <Portfolio2/> */}
+        <Portfolio3/>
+        {/* <Portfolio4/> */}
+        <Contact/>
+
+        {/*1*/}
+        {/* <Features /> */}
+        {/* <Demo /> */}
+        {/* <Pricing /> */}
+        {/* <Testimonies /> */}
         <Action />
         <Footer />
       </div>

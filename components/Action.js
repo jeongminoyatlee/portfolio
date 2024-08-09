@@ -14,7 +14,7 @@ export default function Action() {
           Transform your <br className="sm:hidden" />
           <Typing />
         </h1>
-        <h2 className="mb-10 text-xl text-center text-gray-200 md:text-2xl">
+        {/* <h2 className="mb-10 text-xl text-center text-gray-200 md:text-2xl">
           Oh, did we mention there's an editable typewriter effect
           with Typed.js?
         </h2>
@@ -31,7 +31,7 @@ export default function Action() {
             No credit card required • Cancel anytime • Free for 30
             days
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,7 +1,9 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-scroll'; // Importing Link from react-scroll if you're using it
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = useState(false);
+
   return (
     <>
       <header className="fixed top-0 left-0 w-full bg-white bg-opacity-30 shadow-md z-50 backdrop-filter backdrop-blur-lg">
@@ -49,20 +51,24 @@ export default function Header() {
             <div className="flex-col pl-4 text-xl md:flex-grow md:pl-0">
               <ul className="flex flex-wrap items-center justify-end flex-grow gap-2 pr-4 space-x-2 mb-2 md:gap-6 md:space-x-6">
                 <li>
-                  <a
-                    href="#portfolio1"
-                    className="text-lg text-black md:text-black hover:text-gray-300 md:hover:text-gray-700"
+                  <Link
+                    to="portfolio1"
+                    smooth={true}
+                    duration={500}
+                    className="text-lg text-black md:text-black hover:text-gray-300 md:hover:text-gray-700 cursor-pointer"
                   >
                     PORTFOLIO
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#contact"
-                    className="text-lg text-black md:text-black hover:text-gray-300 md:hover:text-gray-700"
+                  <Link
+                    to="contact"
+                    smooth={true}
+                    duration={500}
+                    className="text-lg text-black md:text-black hover:text-gray-300 md:hover:text-gray-700 cursor-pointer"
                   >
                     CONTACT
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

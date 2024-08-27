@@ -78,7 +78,7 @@ export default function Footer() {
           </div>
         </div> */}
         <p className="-mt-8 text-center text-gray-300">
-          Made by Jeongmin Lee. All rights reserved.
+          Made by Jeongmin Lee
         </p>
       </div>
     </footer>

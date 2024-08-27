@@ -15,7 +15,7 @@ export default function Portfolio3() {
         <p className="mt-4 text-lg font-normal lg:max-w-3xl">
           Build with Next.js
         </p>
-        <a href="https://portfolio-dashboard-cxbk.vercel.app" target="_blank" rel="noopener noreferrer">
+        <a href="https://portfolio-blog-travelog.vercel.app" target="_blank" rel="noopener noreferrer">
           <img
             src="images/travelog.jpg"
             className="mt-8 transition duration-700 shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 hover:transform hover:scale-105"

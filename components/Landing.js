@@ -6,7 +6,7 @@ export default function Landing() {
 
   useEffect(() => {
     const typed = new Typed(typedElement.current, {
-      strings: ["안녕하세요", "프론트엔드 개발자 이정민입니다"],
+      strings: ["안녕하세요", "UI UX 디자이너 이정민입니다"],
       typeSpeed: 50,
       backSpeed: 25,
       loop: false,
@@ -28,8 +28,8 @@ export default function Landing() {
               <span ref={typedElement}></span>
             </h1>
             <h2 className="mt-10 mb-3 text-sm text-gray-100 md:text-sm md:mx-10 md:text-gray-600">
-              프론트엔드 개발을 통해 변화하는 기술과 트렌드에 적응하며 새로운 도전을 즐깁니다. <br/>
-              사용자 경험을 최우선으로 생각하고 작은 디테일까지 신경 쓰는 개발자가 되고자 합니다.
+              사용자의 관점을 최우선으로 생각하며, 세심한 디테일로 경험을 완성하는 UX/UI 디자이너입니다. <br/>
+              변화하는 트렌드에 빠르게 적응하며, 새로운 도전을 두려워하지 않습니다.
             </h2>
           </div>
         </div>

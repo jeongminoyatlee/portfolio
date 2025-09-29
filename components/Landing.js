@@ -6,7 +6,7 @@ export default function Landing() {
 
   useEffect(() => {
     const typed = new Typed(typedElement.current, {
-      strings: ["안녕하세요", "UI UX 디자이너 이정민입니다"],
+      strings: ["안녕하세요", "UI UX 디블리셔 이정민입니다"],
       typeSpeed: 50,
       backSpeed: 25,
       loop: false,

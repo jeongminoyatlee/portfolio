@@ -28,8 +28,8 @@ export default function Landing() {
               <span ref={typedElement}></span>
             </h1>
             <h2 className="mt-10 mb-3 text-sm text-gray-100 md:text-sm md:mx-10 md:text-gray-600">
-              사용자의 관점을 최우선으로 생각하며, 세심한 디테일로 경험을 완성하는 UX/UI 디자이너입니다. <br/>
-              변화하는 트렌드에 빠르게 적응하며, 새로운 도전을 두려워하지 않습니다.
+              사용자의 관점을 최우선으로 생각하며 세심한 디테일로 경험을 완성하는 UX/UI 디블리셔입니다. <br/>
+              프론트엔드 개발자로서의 경험을 살려 디자인을 실제 사용자 경험으로 구현하고자 합니다.
             </h2>
           </div>
         </div>
